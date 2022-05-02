@@ -2,9 +2,9 @@ name: Whitesource Prioritize DotNET Core
 
 on:
   push:
-    branches: [ release* master ]
+    branches: [ master ]
   pull_request:
-    branches: [ release* master ]
+    branches: [ master ]
 
 jobs:
   build:
